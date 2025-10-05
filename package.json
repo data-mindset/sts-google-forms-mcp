@@ -1,0 +1,31 @@
+{
+	"name": "sts-google-forms-mcp",
+	"version": "1.0.0",
+	"description": "A Model Context Protocol server for creating and managing Google Forms",
+	"main": "index.js",
+	"module": "./src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "smithery dev",
+		"build": "smithery build"
+	},
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"google-forms",
+		"google-apis",
+		"smithery"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.18.2",
+		"@smithery/sdk": "^1.6.4",
+		"googleapis": "^144.0.0",
+		"google-auth-library": "^9.14.1",
+		"zod": "^3.25.46"
+	},
+	"devDependencies": {
+		"@smithery/cli": "^1.4.1"
+	}
+}
